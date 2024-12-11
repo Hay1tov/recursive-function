@@ -10,7 +10,12 @@ void func(int n){
 
 int main(){ 
 
-    func(5);
+    int a;
+
+    printf("a = "); scanf("%d", &a);
+
+
+    func(a);
 
     return 0;
 }
